@@ -441,6 +441,9 @@
           "build/NUnit.props": {}
         }
       },
+      "NUnit.ConsoleRunner/3.15.2": {
+        "type": "package"
+      },
       "NUnit3TestAdapter/3.16.1": {
         "type": "package",
         "dependencies": {
@@ -1878,6 +1881,74 @@
         "lib/netstandard2.0/nunit.framework.xml",
         "nunit.3.12.0.nupkg.sha512",
         "nunit.nuspec"
+      ]
+    },
+    "NUnit.ConsoleRunner/3.15.2": {
+      "sha512": "oOW0VH9VRt3dZKFulHgEXPgsdYbIP1qbWf1/cQX3t4Tz0Exgmd6MGMOrYTgktZ2o/JOf+MFNYksh267Jrfz+ig==",
+      "type": "package",
+      "path": "nunit.consolerunner/3.15.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "images/nunit_256.png",
+        "nunit.consolerunner.3.15.2.nupkg.sha512",
+        "nunit.consolerunner.nuspec",
+        "tools/agents/net20/nunit-agent-x86.exe",
+        "tools/agents/net20/nunit-agent-x86.exe.config",
+        "tools/agents/net20/nunit-agent.exe",
+        "tools/agents/net20/nunit-agent.exe.config",
+        "tools/agents/net20/nunit.agent.addins",
+        "tools/agents/net20/nunit.engine.api.dll",
+        "tools/agents/net20/nunit.engine.api.xml",
+        "tools/agents/net20/nunit.engine.core.dll",
+        "tools/agents/net20/testcentric.engine.metadata.dll",
+        "tools/agents/net40/nunit-agent-x86.exe",
+        "tools/agents/net40/nunit-agent-x86.exe.config",
+        "tools/agents/net40/nunit-agent.exe",
+        "tools/agents/net40/nunit-agent.exe.config",
+        "tools/agents/net40/nunit.agent.addins",
+        "tools/agents/net40/nunit.engine.api.dll",
+        "tools/agents/net40/nunit.engine.api.xml",
+        "tools/agents/net40/nunit.engine.core.dll",
+        "tools/agents/net40/testcentric.engine.metadata.dll",
+        "tools/agents/net5.0/nunit-agent.deps.json",
+        "tools/agents/net5.0/nunit-agent.dll",
+        "tools/agents/net5.0/nunit-agent.dll.config",
+        "tools/agents/net5.0/nunit-agent.runtimeconfig.json",
+        "tools/agents/net5.0/nunit.agent.addins",
+        "tools/agents/net5.0/nunit.engine.api.dll",
+        "tools/agents/net5.0/nunit.engine.api.xml",
+        "tools/agents/net5.0/nunit.engine.core.dll",
+        "tools/agents/net5.0/testcentric.engine.metadata.dll",
+        "tools/agents/net6.0/nunit-agent.deps.json",
+        "tools/agents/net6.0/nunit-agent.dll",
+        "tools/agents/net6.0/nunit-agent.dll.config",
+        "tools/agents/net6.0/nunit-agent.runtimeconfig.json",
+        "tools/agents/net6.0/nunit.agent.addins",
+        "tools/agents/net6.0/nunit.engine.api.dll",
+        "tools/agents/net6.0/nunit.engine.api.xml",
+        "tools/agents/net6.0/nunit.engine.core.dll",
+        "tools/agents/net6.0/testcentric.engine.metadata.dll",
+        "tools/agents/netcoreapp3.1/nunit-agent.deps.json",
+        "tools/agents/netcoreapp3.1/nunit-agent.dll",
+        "tools/agents/netcoreapp3.1/nunit-agent.dll.config",
+        "tools/agents/netcoreapp3.1/nunit-agent.runtimeconfig.json",
+        "tools/agents/netcoreapp3.1/nunit.agent.addins",
+        "tools/agents/netcoreapp3.1/nunit.engine.api.dll",
+        "tools/agents/netcoreapp3.1/nunit.engine.api.xml",
+        "tools/agents/netcoreapp3.1/nunit.engine.core.dll",
+        "tools/agents/netcoreapp3.1/testcentric.engine.metadata.dll",
+        "tools/nunit.console.nuget.addins",
+        "tools/nunit.engine.api.dll",
+        "tools/nunit.engine.api.xml",
+        "tools/nunit.engine.core.dll",
+        "tools/nunit.engine.dll",
+        "tools/nunit3-console.exe",
+        "tools/nunit3-console.exe.config",
+        "tools/testcentric.engine.metadata.dll"
       ]
     },
     "NUnit3TestAdapter/3.16.1": {
@@ -4619,6 +4690,7 @@
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
+      "NUnit.ConsoleRunner >= 3.15.2",
       "NUnit3TestAdapter >= 3.16.1"
     ]
   },
@@ -4670,6 +4742,10 @@
           "NUnit": {
             "target": "Package",
             "version": "[3.12.0, )"
+          },
+          "NUnit.ConsoleRunner": {
+            "target": "Package",
+            "version": "[3.15.2, )"
           },
           "NUnit3TestAdapter": {
             "target": "Package",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9TVIDXLUdH/sHUUTS82j5WqhBkO/KbVW/V/iVEjRcPABUDdvxJlxN9QXXlH6A8ZbEidmJbdU7SRRa7kJGUBpYA==",
+  "dgSpecHash": "oACi8mk0kV3/CEwx/B3AHyzPlgiLpkNixWHwEu9Qy3JpdBSRWRWshcKjTn3a//Ei8TEgLTyKd13u/ORe+xMaug==",
   "success": true,
   "projectFilePath": "C:\\Users\\pavant\\Documents\\Eclipse\\zephyr-scale-nunit-automation\\Zephyr-Scale-NUnitTest\\NUnitTest\\NUnitTest.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\pavant\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\pavant\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\pavant\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Users\\pavant\\.nuget\\packages\\nunit.consolerunner\\3.15.2\\nunit.consolerunner.3.15.2.nupkg.sha512",
     "C:\\Users\\pavant\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
     "C:\\Users\\pavant\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\pavant\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
